@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background: rgb(45, 48, 80);
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding-left: 1.5%;
+}
+h1{
+    padding-left: 1.5%;
+}
+
+
+section.navigate{
+    width: 100%;
+   /* position: absolute;
+    top: 0;
+    z-index: 9999;*/
+    background-color: rgb(30, 33, 66);
+}
+section{
+    background-color: rgb(30, 33, 66);
+}
+
+ul.navigator{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    background: transparent;
+    padding: 5px 5px;
+}
+
+nav ul.navigator li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700 ;
+    text-decoration: none;
+}
+
+.description{
+    padding: 1.5%;
+    display: flex;
+    background-color: rgb(20, 23, 54);
+    gap: 1em;
+    align-items: center;
+}
+
+.intro{
+    padding: 2% 45%;
+}
+
+article{
+    padding: 1.5%;
+}
+
+.description > div {
+    padding: 1.5%;
+    width: fit-content;
+}
+
+br.big{font-size:xx-large;}
+
+th, td {
+    border: 2px solid transparent;
+    border-collapse: collapse;
+    padding: 4px 4px 4px 10px;
+    
+}
+th{
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: azure;
+    color: rgb(45, 48, 80);
+}
+tr:hover{
+    background-color: rgb(228, 226, 145);
+    color:rgb(45, 48, 80);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #070650;
+    color: white;
+  }
+
+table{
+    border-collapse: collapse;
+    margin: 30px -2px;
+    
+    /* justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    border-collapse: collapse;
+    width: 400px; */
+}
+
+.tables__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+.tables{
+    border-collapse: collapse;
+    margin: 30px 0;
+  }
+
+/*------------------Footer------------------*/
+
+footer{
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2.5% 2.5% 0 2.5%;
+    color: rgb(34, 37, 68);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 37, 68);
+}
+textarea{
+    background-color:  rgb(76, 80, 143);
+    color: azure;
+}
+input{
+    background-color: rgb(76, 80, 143);
+    color: azure;
+}
+
+input.button{
+    background-color: green;
+    height: auto;
+    font-weight: bold;
+    border:rgb(45, 48, 80);
+    border-radius: 5%;
+}
+
+@media(max-width=734px){
+    
+}

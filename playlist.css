@@ -1,0 +1,139 @@
+html, body{
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: rgb(45, 48, 80);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+section.navigate{
+    width: 100%;
+   /* position: absolute;
+    top: 0;
+    z-index: 9999;*/
+    background-color: rgb(30, 33, 66);
+}
+
+ul.navigator{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    background: transparent;
+    padding: 5px 5px;
+}
+
+nav ul.navigator li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700 ;
+    text-decoration: none;
+}
+
+ul.navigator{
+    list-style: none;
+    display: flex;
+    flex-direction : row; 
+    justify-content : space-around;
+    flex-flow : wrap
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(darkblue,rgb(72, 70, 204));
+    padding: 1.5%;
+    margin: 1.5%;
+    justify-content: space-between;
+}
+.linkin{
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+}
+.linkin:hover{
+    color: gold;
+}
+#playlist{
+    list-style: none;
+}
+#playlist li a{
+    color:black;
+    text-decoration: none;
+}
+#playlist .current-song a{
+    color:blue;
+}
+.player{
+    margin-left: 25%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    height: 500px;
+    width:auto;
+    background-color: rgb(34, 37, 68);
+    color: rgb(194, 200, 228);
+    padding-left: 1.5%;
+}
+
+h2{
+    padding-left: 1.5%;
+}
+
+/*----------------Footer-------------------- */
+
+footer{
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2.5% 2.5% 0 2.5%;
+    color: rgb(34, 37, 68);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 37, 68);
+}
+textarea{
+    background-color:  rgb(76, 80, 143);
+    color: azure;
+}
+input{
+    background-color: rgb(76, 80, 143);
+    color: azure;
+}
+
+input.button{
+    background-color: green;
+    height: auto;
+    font-weight: bold;
+    border:rgb(45, 48, 80);
+    border-radius: 5%;
+}

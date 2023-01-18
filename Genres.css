@@ -1,0 +1,154 @@
+html, body{
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: rgb(45, 48, 80);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+section.navigate{
+    width: 100%;
+    background-color: rgb(30, 33, 66);
+}
+
+ul.navigator{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    background: transparent;
+    padding: 5px 5px;
+}
+
+nav ul.navigator li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700 ;
+    text-decoration: none;
+}
+
+ul.navigator{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.readmore{
+    color: azure;
+    background-color: rgb(29, 32, 70);
+    font-weight:900;
+    font-size: larger;
+    border:2px solid azure;
+    text-align: start;
+    align-items: center;
+    padding: 1.5% 5%;
+    margin-left: 40%;
+}
+
+.readmore:hover{
+    background-color: rgb(61, 65, 110);
+    border:3px solid azure;
+}
+
+/* ------------slider------------- */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(204, 207, 238);
+    height: 300px;
+    width: 400px;
+    color: black;
+    
+/* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding:0 0 0 100;
+}
+
+.box{
+    height: 500px;
+    width:auto;
+    background-color: rgb(34, 37, 68);
+    color: rgb(194, 200, 228);
+    padding-left: 1.5%;
+}
+
+h2{
+    padding-left: 1.5%;
+}
+
+/*----------------Footer-------------------- */
+
+footer{
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2.5% 2.5% 0 2.5%;
+    color: rgb(34, 37, 68);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 37, 68);
+}
+textarea{
+    background-color:  rgb(76, 80, 143);
+    color: azure;
+}
+input{
+    background-color: rgb(76, 80, 143);
+    color: azure;
+}
+
+input.button{
+    background-color: green;
+    height: auto;
+    font-weight: bold;
+    border:rgb(45, 48, 80);
+    border-radius: 5%;
+}
